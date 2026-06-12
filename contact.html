@@ -1,0 +1,71 @@
+﻿<!DOCTYPE html>
+<html lang="ka">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>კონტაქტი — Shine</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <header class="nav">
+    <a href="../index.html" class="nav-logo">
+      <img src="../images/logo.png" alt="Shine Aesthetic Club">
+    </a>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="../index.html">მთავარი</a></li>
+        <li><a href="services.html">მომსახურებები</a></li>
+        <li><a href="about.html">ჩვენს შესახებ</a></li>
+        <li><a href="contact.html">კონტაქტი</a></li>
+      </ul>
+    </nav>
+    <a href="contact.html" class="nav-cta">დაჯავშნა</a>
+  </header>
+
+  <main>
+    <section class="page-hero reveal-on-scroll delay-0">
+      <p class="hero-label">კონტაქტი</p>
+      <h2>დაგვიკავშირდით დღესვე</h2>
+      <p class="hero-sub">გამოგვიგზავნეთ კითხვა ან დარეგისტრირდით პროცედურისთვის. ჩვენი გუნდი მზადაა დაგეხმაროთ.</p>
+    </section>
+
+    <section class="contact-body">
+      <div class="contact-card reveal-on-scroll delay-1 glass-panel">
+        <h3>ჩვენი მისამართი</h3>
+        <address>
+          თბილისი, სამედიცინო ქუჩა 15
+        </address>
+        <p>ჩვენს კლინიკაში კარზე ორიენტირებული მომსახურება, უსაფრთხო პროცედურები და კომფორტული გარემოა.</p>
+
+        <ul class="contact-list">
+          <li><strong>ტელ:</strong> +995 32 123 4567</li>
+          <li><strong>ელ. ფოსტა:</strong> info@shine.ge</li>
+          <li><strong>სამუშაო საათები:</strong> დ–პ 10:00–20:00</li>
+        </ul>
+      </div>
+
+      <form class="contact-form reveal-on-scroll delay-2" action="#" method="post">
+        <h3>შემოგვატოვეთ შეტყობინება</h3>
+        <div class="form-field">
+          <label class="form-label" for="name">სახელი</label>
+          <input class="form-input" type="text" id="name" name="name" placeholder="შენი სახელი" required>
+        </div>
+        <div class="form-field">
+          <label class="form-label" for="email">ელ. ფოსტა</label>
+          <input class="form-input" type="email" id="email" name="email" placeholder="name@example.com" required>
+        </div>
+        <div class="form-field">
+          <label class="form-label" for="message">შეტყობინება</label>
+          <textarea class="form-textarea" id="message" name="message" placeholder="როგორ შეგვიძლია დაგეხმაროთ?" required></textarea>
+        </div>
+        <button class="btn-secondary btn-hover" type="submit">გაგზავნა</button>
+      </form>
+    </section>
+  </main>
+
+  <script src="../js/scripts.js"></script>
+</body>
+</html>
